@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#image-div {
+  background-image: url("../Static/landing-image.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+#features,
+#about-us,
+#contact-us,
+#socials {
+  height: 100vh;
+}
+
+#landing-page-title {
+  margin: 0 0 20px 0;
+  color: #00181c;
+  font-size: 100px;
+  letter-spacing: 2px;
+}
+
+#landing-page-title-buttons {
+  position: absolute;
+  top: 170px;
+  left: 300px;
+}
+
+#buttons-parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px 270px;
+}
+
+.login-signup-button {
+  cursor: pointer;
+  font-size: large;
+}
+
+#login-button {
+  font-weight: bolder;
+  padding: 15px 30px;
+  box-shadow: 2px;
+  border-radius: 25px;
+  border: 2px solid #00181c;
+  background-color: #00181c;
+  color: #f9fdd8;
+}
+#login-button:hover {
+  background: none;
+  color: #00181c;
+  border: 2px solid #00181c;
+  transition: all 0.2s ease-in-out;
+}
+
+#signup-button {
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+#signup-button:hover {
+  transform: scale(1.3);
+  text-decoration: underline;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 30px;
+  right: 130px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #00181c;
+  padding: 10px 40px;
+  border-right: 1px solid #00181c;
+  font-weight: bold;
+}
+
+nav a:last-child {
+  border-right: none;
+}
+
+nav a:hover {
+  cursor: pointer;
+  background-color: #00181c;
+  color: #f9fdd8;
+  transition: all 0.2s ease-in-out;
+}

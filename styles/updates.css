@@ -1,0 +1,74 @@
+body {
+  background: linear-gradient(to right, #014945, #00a762);
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: whitesmoke;
+  margin-bottom: 30px;
+}
+.trek-updates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.trek-update {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease;
+  width: 60%;
+  /* set width to 60% */
+  margin: 0 auto;
+  margin-bottom: 10px;
+  /* center the element */
+}
+
+.trek-update:hover {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.trek-name {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.message {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.post-time {
+  font-size: 14px;
+  color: #999;
+  margin-top: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+  .trek-update {
+    padding: 10px;
+  }
+  
+  .trek-name {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .message {
+    font-size: 16px;
+  }
+  
+  .post-time {
+    font-size: 12px;
+  }
+}
